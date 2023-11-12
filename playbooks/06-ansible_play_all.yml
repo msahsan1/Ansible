@@ -1,0 +1,3 @@
+- import_playbook:  01-ping.yml
+- import_playbook:  02-register_variable.yml
+- import_playbook:  03-ansible_variable.yml
