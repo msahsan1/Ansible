@@ -1,0 +1,15 @@
+plugin: aws_ec2
+region:
+  - us-east-2
+keyed_groups:
+  - prefix: arch
+    key: 'architecture'
+  - prefix: tag
+    key: 'tags'
+  - prefix: tag
+    key: 'tags'
+  - prefix: aws_region
+    key: placement.region
+  - key: tags.Environment
+    separator: ''
+

@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+    - name: Ping All Servers
+      action: ping
+    - debug: msg="Hello"
+
+- hosts: aws_ec2
+  task:
+    - debug: msg="hello dev"
+
